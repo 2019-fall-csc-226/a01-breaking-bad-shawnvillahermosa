@@ -95,11 +95,49 @@ elif user_input == "2011":
 
 ######################################################################
 # (Required) Task 2
-# TODO Ask the user for their friend's birth year
+# Asks the user for their friend's birth years.
 
+print("")
 
-# TODO Similar to above, check your friend's year using if conditionals, and print the correct animal for that year
+friend_user_input = (input("What is your friend's birth year?"))
 
+# User inputs their friend's birth years.
+if friend_user_input == "2000":
+    print("Yooo! They're a Dragon like you!")
+    print("How awesome is that?!")
+
+elif friend_user_input == "2001":
+    print("They're a snake!")
+
+elif friend_user_input == "2002":
+    print("They're a Horse!")
+
+elif friend_user_input == "2003":
+    print("They're a Goat!")
+
+elif friend_user_input == "2004":
+    print("They're a monkey!")
+
+elif friend_user_input == "2005":
+    print("They are a Rooster!")
+
+elif friend_user_input == "2006":
+    print("They're a Dog!")
+
+elif friend_user_input == "2007":
+    print("They are a Pig! (No offense)")
+
+elif friend_user_input == "2008":
+    print("They're a Mouse!")
+
+elif friend_user_input == "2009":
+    print("They are an Ox!")
+
+elif friend_user_input == "2010":
+    print("They're a Tiger!")
+
+elif friend_user_input == "2011":
+    print("They are a Rabbit!")
 
 ######################################################################
 # (Optional) Task 3
