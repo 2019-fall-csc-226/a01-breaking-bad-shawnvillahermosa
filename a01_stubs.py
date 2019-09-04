@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Dr. Scott Heggen      TODO: Change this to your name
-# Username: heggens             TODO: Change this to your username
+# Author: Shawn Villahermosa
+# Username: villahermosas
 #
 # Assignment: A01
 #
@@ -16,12 +16,82 @@
 
 ######################################################################
 # (Required) Task 1
-# TODO Ask user for their birth year
 
+import time
+user_input = (input("What is your birth year?"))
 
-# TODO Check the year using if conditionals, and print the correct animal for that year.
-# See the a01_pets.py for examples
+# User inputs their birth years.
+if user_input == "2000":
+    print("Yooo! You're a Dragon!")
+    time.sleep(2)
+    print("And no you can't breathe fire...")
+    print("... trust me, I've tried it.")
 
+elif user_input == "2001":
+    print("You're a sssneaky ssssneaky Sssnake! \n")
+    time.sleep(2)
+    print("What do you call a Mexican snake?")
+    time.sleep(2)
+    print("A hissspanic! Hahah!")
+
+elif user_input == "2002":
+    print("Hay! You're a Horse! \n")
+    time.sleep(2)
+    print("What do you call a horse that lives next door?")
+    print("A neigh-bor!")
+
+elif user_input == "2003":
+    print("You have 'goat' to be kidding me! You're a Goat!")
+
+elif user_input == "2004":
+    print("You're a monkey! \n")
+    time.sleep(2)
+    print("Explains why you keep going bananas...")
+
+elif user_input == "2005":
+    print("According to the Chinese calendar, you are a Rooster! \n")
+    print("You have just been egg-ucated!")
+
+elif user_input == "2006":
+    print("You're a Dog!")
+    print("In a couple of days, you might just pug-get about it.")
+
+elif user_input == "2007":
+    print("You are a Pig! (No offense) \n")
+    time.sleep(2)
+    print("If you took offense to that, here's a little joke to maybe set things right: ")
+    print("Why did the pig quit sunbathing? \n")
+    time.sleep(3)
+    print("Because he was bacon in the heat!")
+    print("Hope that made you feel better!")
+
+elif user_input == "2008":
+    print("Squeak! You're a Mouse! \n")
+    time.sleep(2)
+    print("One time I had a rat in my house and gave it poison...")
+    print("... it didn't die so I guess it was Ratsputin.")
+
+elif user_input == "2009":
+    print("You are an Ox! \n")
+    time.sleep(2)
+    print("I'm sorry I don't have any puns for oxen...")
+    time.sleep(2)
+    print("...or do I?")
+    time.sleep(2)
+    print("No I don't.")
+
+elif user_input == "2010":
+    print("You're a Tiger! \n")
+    time.sleep(2)
+    print("Why don't tigers like fast food?")
+    time.sleep(2)
+    print("Because they can't catch it!")
+
+elif user_input == "2011":
+    print("You're a Rabbit! \n")
+    time.sleep(2)
+    print("When you've been forgotten by someone...")
+    print("...now you're just some bunny that they used to know...")
 
 ######################################################################
 # (Required) Task 2
